@@ -1,0 +1,13 @@
+{
+  "name": "{{.ProjectName}}",
+  "outputfilename": "{{.BinaryName}}",
+  "frontend:install": "pnpm i",
+  "frontend:build": "yarn build",
+  "frontend:dev:watcher": "yarn dev",
+  "frontend:dev:serverUrl": "http://127.0.0.1:5173",
+  "debounceMS": 500,
+  "author": {
+    "name": "{{.AuthorName}}",
+    "email": "{{.AuthorEmail}}"
+  }
+}

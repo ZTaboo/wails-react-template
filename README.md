@@ -2,15 +2,20 @@
 
 ### Run 
 
-> 运行必须`build`一次
+> 首次运行必须编译前端一次一次
 
 ```bash
-cd frontend
+wails init -n <project_name> -t https://github.com/ZTaboo/wails-react-template
+```
+
+```bash
+cd <project_name>/frontend
 
 pnpm i
 
 pnpm run build
 
+# 退回项目根目录
 cd ..
 
 wails dev
